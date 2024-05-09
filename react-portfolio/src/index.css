@@ -4,3 +4,12 @@
   padding: 0%;
   font-family: "Outfit", Arial, Helvetica, sans-serif;
 }
+
+body {
+  overflow-x: hidden; /* Hide horizontal overflow */
+  overflow-y: auto; /* Allow vertical scrolling only when necessary */
+}
+
+html {
+  scroll-behavior: smooth;
+}
