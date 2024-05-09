@@ -1,26 +1,51 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "title": "Medicine Inventory",
+      "imageSrc": "projects/project-img1.PNG",
+      "description": "It's a medicine bying and selling e-commerce website where you can buy every type of medicines.",
+      "skills": ["React", "Express", "Node", "MongoDB"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/nimra321/medAdept"
+    },
+    {
+      "title": "Foodi",
+      "imageSrc": "projects/project-img4.PNG",
+      "description": "It's a food website where you can place an order and admin can review the order.",
+      "skills": ["React", "Express", "Node", "MongoDB"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/nimra321/Foodi"
+    },
+    {
+      "title": "Art Gallery",
+      "imageSrc": "projects/project-img2.PNG",
+      "description": "It's a website where you can see amazing  works of art, such as paintings, sculptures, and other visual artworks.",
+      "skills": ["React", "HTML", "CSS"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/nimra321/ArtTreasure"
+    },
+    {
+      "title": "AI GPT",
+      "imageSrc": "projects/project-img3.PNG",
+      "description": "This is a project it is made as the clone of Chat GPT with differnt User Interface.",
+      "skills": ["React", "Express", "Node"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    
+    {
+      "title": "Wha Chat",
+      "imageSrc": "projects/project-img5.PNG",
+      "description": "In this chatbot based whatsapp clone you can chat with others.",
       "skills": ["React", "Express", "Node"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     },
     {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "title": "Personal Website",
+      "imageSrc": "projects/project-img6.PNG",
+      "description": "This is a personal website for showing your working and experience to others.",
       "skills": ["React", "Express", "Node"],
       "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://github.com/nimra321/Mern-Portfolio"
     }
   ]

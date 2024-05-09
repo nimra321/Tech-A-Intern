@@ -6,8 +6,8 @@
 }
 
 body {
-  overflow-x: hidden; /* Hide horizontal overflow */
-  overflow-y: auto; /* Allow vertical scrolling only when necessary */
+  overflow-x: hidden; 
+  /* overflow-y: auto;  */
 }
 
 html {

@@ -24,7 +24,7 @@
       "imageSrc": "skills/react.png"
     },
     {
-        "title": "Expressjs",
+        "title": "Express",
         "imageSrc": "skills/expressjs.png"
       },
     {
@@ -38,5 +38,9 @@
     {
       "title": "MongoDB",
       "imageSrc": "skills/mongodb.png"
+    },
+    {
+      "title": "Firebase",
+      "imageSrc": "skills/firbase.png"
     }
   ]
