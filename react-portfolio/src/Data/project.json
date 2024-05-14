@@ -1,4 +1,12 @@
 [
+  {
+    "title": "TODO APP",
+    "imageSrc": "projects/project-img7.PNG",
+    "description": "This is a todo website for showing your working and Organize your work and life.",
+    "skills": ["React", "Express", "Node", "MongoDB"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/nimra321/Mern-Portfolio"
+  },
     {
       "title": "Medicine Inventory",
       "imageSrc": "projects/project-img1.PNG",
@@ -18,7 +26,7 @@
     {
       "title": "Art Gallery",
       "imageSrc": "projects/project-img2.PNG",
-      "description": "It's a website where you can see amazing  works of art, such as paintings, sculptures, and other visual artworks.",
+      "description": "It's a website where you can see amazing  works of art, such as paintings, and other visual artworks.",
       "skills": ["React", "HTML", "CSS"],
       "demo": "https://www.example.com",
       "source": "https://github.com/nimra321/ArtTreasure"
@@ -35,7 +43,7 @@
     {
       "title": "Wha Chat",
       "imageSrc": "projects/project-img5.PNG",
-      "description": "In this chatbot based whatsapp clone you can chat with others.",
+      "description": "In this chatbot based whatsapp clone where you can easily chat with others.",
       "skills": ["React", "Express", "Node"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
@@ -43,7 +51,7 @@
     {
       "title": "Personal Website",
       "imageSrc": "projects/project-img6.PNG",
-      "description": "This is a personal website for showing your working and experience to others.",
+      "description": "This is a personal website for showing your working, showing your skills and experience to others.",
       "skills": ["React", "Express", "Node"],
       "demo": "https://www.example.com",
       "source": "https://github.com/nimra321/Mern-Portfolio"

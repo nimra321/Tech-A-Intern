@@ -12,7 +12,7 @@ router.post("/register", async (req, res) => {
         const user = new User({ email, username, password: hashpassword });
 
         await user.save().then(() => {
-            res.status(200).json({ user: user });
+            res.status(200).json({ message: "SignUp Successfull." });
         })
 
     } catch (error) {

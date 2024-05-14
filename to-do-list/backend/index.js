@@ -1,11 +1,12 @@
 const mongoose = require("mongoose");
 const express = require('express');
 const app = express();
-
+const cors = require("cors");
 const auth = require("./routes/auth");
 const list = require("./routes/listRoutes");
 
 app.use(express.json());
+app.use(cors());
 
 async function connectDB() {
     try {
