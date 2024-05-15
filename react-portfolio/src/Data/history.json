@@ -1,19 +1,19 @@
 [
     {
-      "role": "Full Stack Developement",
+      "role": "MERN Stack Developement",
       "organisation": "NeXskill",
       "startDate": "Feb, 2023",
-      "endDate": "Oct, 2023",
-      "experiences": ["I joined Nexskill for learning and improving my skills.","Developing and maintaining web applications using React.js and other related technologies.", "Implementing responsive design"],
-      "imageSrc": "history/nexskill.png"
+      "endDate": "Sep, 2023",
+      "experiences": ["I completed 6 months Web Development Course from NexSkill.","which included HTML, CSS, JS, Bootstrap, Material UI, React JS, Node JS, Express JS, MongoDB."],
+      "imageSrc": "history/mern.png"
     },
     {
-      "role": "MERN Stack Developer",
-      "organisation": "NeXskill",
+      "role": "MS Office",
+      "organisation": "PUCIT",
       "startDate": "Feb, 2023",
       "endDate": "Oct, 2023",
-      "experiences": ["I joined Nexskill for learning and improving my skills.","Developing and maintaining web applications using React.js and other related technologies.", "Implementing responsive design"],
-      "imageSrc": "history/nexskill.png"
+      "experiences": ["I completed 3 months MicroSoft Office Course from PUCIT.","which included MS Word, MS Excel, MS PowerPoint, Typing Speed, making doc files, making presentation."],
+      "imageSrc": "history/microsoft.png"
     }
     
   ]

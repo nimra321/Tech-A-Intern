@@ -7,7 +7,7 @@ const list = require("./routes/listRoutes");
 
 app.use(express.json());
 app.use(cors());
-
+// mongodb+srv://Nimra:nimraJahangir.1125@cluster0.bpkxc2b.mongodb.net/ToDoApp?retryWrites=true&w=majority&appName=Cluster0
 async function connectDB() {
     try {
         await mongoose.connect("mongodb+srv://Nimra:nimraJahangir.1125@cluster0.bpkxc2b.mongodb.net/ToDoApp?retryWrites=true&w=majority&appName=Cluster0");
