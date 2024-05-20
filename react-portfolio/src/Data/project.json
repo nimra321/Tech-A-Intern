@@ -16,6 +16,14 @@
       "source": "https://github.com/nimra321/medAdept"
     },
     {
+      "title": "Weather Application",
+      "imageSrc": "projects/project-img8.PNG",
+      "description": " Stay informed about the weather conditions with this user-friendly application. ",
+      "skills": ["React", "HTML", "CSS"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/nimra321/medAdept"
+    },
+    {
       "title": "Foodi",
       "imageSrc": "projects/project-img4.PNG",
       "description": "It's a food website where you can place an order and admin can review the order.",

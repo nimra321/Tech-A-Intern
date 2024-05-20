@@ -3,6 +3,7 @@ import './App.css';
 import {Search, MapPin, Wind} from 'react-feather';
 import getWeather from './API/api';
 import { useState } from 'react';
+import dateFormat from 'dateformat';
 
 function App() {
 
@@ -13,6 +14,11 @@ function App() {
     const weatherData = await getWeather(city);
     setWeather(weatherData);
     setCity("");
+  }
+
+  const renderDate = () => {
+    let now = new Date();
+    return dateFormat(now, "dddd, mmmm d5, h:MM TT");
   }
 
   return (
@@ -30,33 +36,36 @@ function App() {
         <div className="content">
         <div className="location d-flex">
           <MapPin></MapPin>
-          <h2>Pakistan <span>(GB)</span></h2>
+          <h2>{weather.name}<span>({weather.sys.country})</span></h2>
         </div>
-        <p className="datetext">17 May 2024</p>
+        <p className="datetext">{renderDate()}</p>
 
-        <div className="weatherdesc">
-          <img src="" alt="" />
-          <h3>Clear Sky</h3>
+        <div className="weatherdesc d-flex flex-c">
+          <img src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`} alt="" />
+          <h3>{weather.weather[0].description}</h3>
         </div>
 
         <div className="tempstats d-flex flex-c">
-          <h1>43 <span>&deg;C</span></h1>
-          <h3>Feels Like <span>&deg;C</span></h3>
+          <h1>{weather.main.temp} <span>&deg;C</span></h1>
+          <h3>Feels Like {weather.main.feels_like}<span>&deg;C</span></h3>
         </div>
 
         <div className="windstats d-flex">
           <Wind></Wind>
-          <h3>Wind is 20 Knots 45&deg;</h3>
+          <h3>Wind is {weather.wind.speed} Knots {weather.wind.deg}&deg;</h3>
         </div>
       </div>
       }
 
-      
-
-      <div className="content">
+      {
+        !weather.weather && <div className="content">
         <h4>No Data Found.</h4>
       </div>
-    </div>
+      }
+
+      {/* <p>{JSON.stringify(weather)}</p> */}
+
+      </div>
   );
 }
 
