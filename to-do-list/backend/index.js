@@ -1,3 +1,5 @@
+
+require('dotenv').config();
 const mongoose = require("mongoose");
 const express = require('express');
 const app = express();
@@ -7,10 +9,11 @@ const list = require("./routes/listRoutes");
 
 app.use(express.json());
 app.use(cors());
-// mongodb+srv://Nimra:nimraJahangir.1125@cluster0.bpkxc2b.mongodb.net/ToDoApp?retryWrites=true&w=majority&appName=Cluster0
+
 async function connectDB() {
     try {
-        await mongoose.connect("mongodb+srv://Nimra:nimraJahangir.1125@cluster0.bpkxc2b.mongodb.net/ToDoApp?retryWrites=true&w=majority&appName=Cluster0");
+        const mongoURI = `mongodb+srv://${process.env.MONGODB_USER}:${process.env.MONGODB_PASSWORD}@${process.env.MONGODB_CLUSTER}.mongodb.net/${process.env.MONGODB_DB}?retryWrites=true&w=majority&appName=Cluster0`;
+        await mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true });
         console.log("Connected to MongoDB");
     } catch (error) {
         console.error("Could not connect to MongoDB", error);
